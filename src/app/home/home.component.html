@@ -1,0 +1,8 @@
+
+  <mat-grid-list cols="3" rows = "3" rowHeight = 100px >
+    <mat-grid-tile *ngFor ="let i of grids" (click)="openMain(i)" style ="border : 1px solid">
+      <button routerLink = "home">Buttons</button>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+   
